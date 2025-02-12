@@ -1,0 +1,3 @@
+nohup: ignoring input
+localTensoRF/dataLoader/generate_gt_poses.py:51: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  gt_poses = get_gt_poses(datadir=data_dir)
