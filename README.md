@@ -9,14 +9,27 @@ conda env create -f environment.yaml
 conda activate incre-dpsr
 ```
 
-## Preprocessing
-### Datasets
-1. [Tanks and Temples] ()
+## Datasets
+1. [Tanks and Temples]()
+
 We use eight scenes from Tanks and Temples in our paper: Ballroom, Barn, Church, Family, Francis, Horse, Ignatius and Museum.
 2. [Static Hikes]()
+
 Our paper also validates the effectiveness on the Static Hikes dataset.
 
-### Preprocessing
+## Preprocessing
 For each scene, we use [DPT](https://github.com/isl-org/DPT) and [RAFT](https://github.com/princeton-vl/RAFT) for monocular depth prior and flow.
+```
+bash scripts/download_weights.sh ## Get pretrained weights.
+python scripts/run_flow.py --data_dir ${SCENE_DIR} ## Run flow estimation (assuming sorted image files in `${SCENE_DIR}/images`).
+python DPT/run_monodepth.py --input_path ${SCENE_DIR}/images --output_path ${SCENE_DIR}/depth --model_type dpt_large ## Run depth estimation.
+```
+
+## Training
+```
+python localTensoRF/train.py --datadir ${SCENE_DIR} --logdir ${LOG_DIR} --fov ${FOV}
+```
+
+
 
 
