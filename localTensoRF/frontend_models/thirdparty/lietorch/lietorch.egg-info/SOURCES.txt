@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+thirdparty/lietorch/lietorch/__init__.py
+thirdparty/lietorch/lietorch/broadcasting.py
+thirdparty/lietorch/lietorch/gradcheck.py
+thirdparty/lietorch/lietorch/group_ops.py
+thirdparty/lietorch/lietorch/groups.py
+thirdparty/lietorch/lietorch/run_tests.py
+thirdparty/lietorch/lietorch.egg-info/PKG-INFO
+thirdparty/lietorch/lietorch.egg-info/SOURCES.txt
+thirdparty/lietorch/lietorch.egg-info/dependency_links.txt
+thirdparty/lietorch/lietorch.egg-info/top_level.txt
+thirdparty/lietorch/lietorch/src/lietorch.cpp
+thirdparty/lietorch/lietorch/src/lietorch_cpu.cpp
+thirdparty/lietorch/lietorch/src/lietorch_gpu.cu
