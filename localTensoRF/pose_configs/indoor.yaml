@@ -1,0 +1,14 @@
+depth:
+  type: None
+pose:
+  learn_pose: True
+dataloading:
+  path: /dataset/localrf_hike_scenes
+  scene: ['indoor']
+  customized_focal: False
+  random_ref: 1
+training:
+  out_dir: /data/localrf_out/indoor
+  auto_scheduler: True
+extract_images:
+  resolution: [1080, 1920]

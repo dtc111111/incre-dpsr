@@ -1,0 +1,14 @@
+depth:
+  type: None
+pose:
+  learn_pose: True
+dataloading:
+  path: /dataset/Tanks
+  scene: ['Family']
+  customized_focal: False
+  random_ref: 1
+training:
+  out_dir: /data/localrf_out/Tanks/Family
+  auto_scheduler: True
+extract_images:
+  resolution: [540, 960]
