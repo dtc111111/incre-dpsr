@@ -13,6 +13,7 @@ conda activate incre-dpsr
 1. [Tanks and Temples]()
 
 We use eight scenes from Tanks and Temples in our paper: Ballroom, Barn, Church, Family, Francis, Horse, Ignatius and Museum.
+
 2. [Static Hikes]()
 
 Our paper also validates the effectiveness on the Static Hikes dataset.
