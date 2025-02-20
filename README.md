@@ -30,6 +30,7 @@ python DPT/run_monodepth.py --input_path ${SCENE_DIR}/images --output_path ${SCE
 ```
 python localTensoRF/train.py --datadir ${SCENE_DIR} --logdir ${LOG_DIR} --fov ${FOV}
 ```
+`${LOG_DIR}` is for the test views and smoothed trajectories to be stored.
 
 
 
