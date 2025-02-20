@@ -10,11 +10,11 @@ conda activate incre-dpsr
 ```
 
 ## Datasets
-1. [Tanks and Temples]()
+1. [Tanks and Temples](https://www.robots.ox.ac.uk/~wenjing/Tanks.zip)
 
 We use eight scenes from Tanks and Temples in our paper: Ballroom, Barn, Church, Family, Francis, Horse, Ignatius and Museum.
 
-2. [Static Hikes]()
+2. [Static Hikes](https://drive.google.com/file/d/1DngTRNuZZXpho8-2cjpToa3lGWzxgwqL/view?usp=drive_link)
 
 Our paper also validates the effectiveness on the Static Hikes dataset.
 
