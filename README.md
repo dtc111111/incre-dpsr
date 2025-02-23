@@ -30,11 +30,7 @@ python DPT/run_monodepth.py --input_path ${SCENE_DIR}/images --output_path ${SCE
 We use Feature Bundle Adjustment(FBA) method to optimize pose estimation. 
 
 First a [Unet](localTensoRF/models/unet.py) is used to extract the multi-layer feature maps of RGB images.
-With the multi-layer feature information and confidence matrix, we then use FBA method to calculate and minimize the reprojection error.[](localTensoRF/models/poses.py)
-
-```
-
-```
+With the multi-layer feature information and confidence matrix, we then use FBA method to calculate and minimize the reprojection error. So we can optimize the [pose](localTensoRF/models/poses.py) estimation
 
 
 ## Training
