@@ -26,6 +26,17 @@ python scripts/run_flow.py --data_dir ${SCENE_DIR} ## Run flow estimation (assum
 python DPT/run_monodepth.py --input_path ${SCENE_DIR}/images --output_path ${SCENE_DIR}/depth --model_type dpt_large ## Run depth estimation.
 ```
 
+## Pose Estimation
+We use Feature Bundle Adjustment(FBA) method to optimize pose estimation. 
+
+First a [Unet](~/localTensoRF/models/unet.py) is used to extract the multi-layer feature maps of RGB images.
+With the multi-layer feature information and confidence matrix, we then use FBA method to calculate and minimize the reprojection error
+
+```
+
+```
+
+
 ## Training
 ```
 python localTensoRF/train.py --datadir ${SCENE_DIR} --logdir ${LOG_DIR} --fov ${FOV}
