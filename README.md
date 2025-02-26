@@ -1,7 +1,6 @@
 
 <p align="center">
-  <h1 align="center">Incremental Joint Learning of Depth, Pose and Implicit Scene Representation on Monocular Camera in Large-scale Scenes</h1>
-  [TASE 2025]
+  <h1 align="center">Incremental Joint Learning of Depth, Pose and Implicit Scene Representation on Monocular Camera in Large-scale Scenes  [TASE 2025]</h1>
   <div align="center"></div>
 </p>
 
